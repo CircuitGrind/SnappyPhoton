@@ -9,7 +9,7 @@ void setup()
     setupSteppers();
     
     // Listen for commands from the web!
-    Spark.function("command", processCommand);
+    Particle.function("command", processCommand);
     
     /*
      * ==================================
